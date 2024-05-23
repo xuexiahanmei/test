@@ -47,26 +47,33 @@ git push -u origin master
 
 當你對本地的文件進行了修改後，想要將這些修改上傳到 GitHub 時，你需要執行以下步驟：
 
-### 1.添加資料夾中的文件到Git：
+### 1.檢查倉庫狀況：
+確任倉庫修改了哪些東西：
+
+```xml
+git status
+```
+
+### 2.添加資料夾中的文件到Git：
 你需要將修改後的文件加入到暫存區中：
 
 ```xml
 git add README.md
 ```
 
-### 2.提交變更：
+### 3.提交變更：
 你需要提交這些修改到本地存儲庫：
 
 ```xml
 git commit -m "Update README.md"
 ```
-### 3.推送到GitHub：
+### 4.推送到GitHub：
 現在，你已經將修改提交到本地存儲庫，但是還沒有推送到遠端。為了將這些修改推送到遠端，你可以執行以下命令：
 
 ```xml
 git push origin master
 ```
-### 4.這樣就完成了將你對 README.md 文件的修改推送到 GitHub 的遠端存儲庫中。
+### 5.這樣就完成了將你對 README.md 文件的修改推送到 GitHub 的遠端存儲庫中。
 
 <p align="center">
   <img src="https://github.com/xuexiahanmei/test/blob/master/doc/pic/docpic1.png" width="550">
